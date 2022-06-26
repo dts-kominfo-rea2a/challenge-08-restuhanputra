@@ -1,0 +1,48 @@
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#todo-title {
+  text-align: center;
+  font-weight: bold;
+  width: 30%;
+  margin-top: 5%;
+  border-style: solid;
+  background: #EEE;
+  color: #000;
+}
+
+#todo-input {
+  margin-top: 2%;
+  width: 30vh;
+  padding: 12px 5px;
+  box-sizing: border-box;
+}
+
+#todo-submit {
+  padding: 12px 5px;
+  width: 9vh;
+  background-color: #eee;
+  color: #000;
+}
+
+#todo-submit:hover {
+  cursor: pointer;
+  background-color: #07B94E;
+  color: white;
+}
+
+#todo-output {
+  padding: 12px 5px;
+  width: 9vh;
+}
+
+li {
+  padding: 12px 5px;
+  width: 9vh;
+  color: #000;
+  text-decoration: underline;
+}
